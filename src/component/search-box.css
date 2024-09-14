@@ -1,0 +1,57 @@
+/* App.css */
+
+/* Style for the main search bar container */
+.search-bar {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Style for the input field */
+  .search-bar input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* Style for search results container */
+  .search-results {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  /* Each search result item */
+  .search-results li {
+    padding: 10px;
+    background: #333;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Highlight the country name */
+  .search-results li strong {
+    font-size: 22px; /* Larger font size */
+    font-weight: bold;
+    color: #ff6347; /* Tomato red color for emphasis */
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the details like capital, population, etc. */
+  .search-results li div {
+    font-size: 14px; /* Smaller font size */
+    color: #aaa; /* Lighter color for less emphasis */
+    line-height: 1.5;
+  }
+  
